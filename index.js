@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 let header = "\n<<<<<<< TYPESCRIPT QUIZ >>>>>>>\n";
-console.log(header);
+console.log(chalk.magentaBright(header));
 let score = 0;
 let mcqs;
 while (true) {

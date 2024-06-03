@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 
@@ -161,7 +162,7 @@ else if (score <= 3) {
     console.log(chalk.yellowBright("Poor Performance!\nKeep Learning Typescript!"));
 }
 else if (score <= 6){
-    console.log(chalk.blueBright(`Good Performance!\nKeep Practicing Typescript To Polish Your Skills Further!`));
+    console.log(chalk.blueBright(`Good Performance!\nKeep Practicing Typescript To Enhance Your Skills Further!`));
 }
 else if (score <= 9) {
     console.log(chalk.cyanBright(`Excellent Performance!!\nKeep Your Efforts Up To Get One Step Ahead!`));

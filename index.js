@@ -1,6 +1,7 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-let header = "\n<<<<<<< TYPESCRIPT QUIZ >>>>>>\n";
+let header = "\n<<<<<<< TYPESCRIPT QUIZ >>>>>>>\n";
 console.log(header);
 let score = 0;
 let mcqs;
@@ -144,7 +145,7 @@ while (true) {
         console.log(chalk.yellowBright("Poor Performance!\nKeep Learning Typescript!"));
     }
     else if (score <= 6) {
-        console.log(chalk.blueBright(`Good Performance!\nKeep Practicing Typescript To Polish Your Skills Further!`));
+        console.log(chalk.blueBright(`Good Performance!\nKeep Practicing Typescript To Enhance Your Skills Further!`));
     }
     else if (score <= 9) {
         console.log(chalk.cyanBright(`Excellent Performance!!\nKeep Your Efforts Up To Get One Step Ahead!`));
